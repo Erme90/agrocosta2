@@ -5,7 +5,7 @@ body html{
 
 .parallax {
     /* imagem usada */
-    background-image: url("../img/10604152_43081.jpeg");
+    background-image: url("../img/10604152_43081.jpeg") 10% fixed;
   
     /* configure uma altura especifica */
     height: 1000px;
@@ -13,17 +13,62 @@ body html{
     /* cria o efeito de scroll do parallax */
     background-attachment: fixed;
     background-position: center;
-    
     background-size: cover;
   }
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-device-width:900px){
+    .menu{
+        width: 100%;
+    }
  
     /*banner*/
+    .div-cards{
+        margin-top: 0;
+        padding: 2px;
+
+    }
+
+    
+    .texto-mapa{
+        margin-top: 20px;
+        background: white;
+        text-align: center;
+    }
+ 
+
+    .mapa{
+
+        overflow:hidden;
+
+        padding-bottom:56.25%;
+
+        position:relative;
+
+        height:0;
+
+    }
+
+    .mapa iframe{
+
+        left:0;
+
+        top:0;
+
+        height:80%;
+
+        width:100%;
+
+        position:absolute;
+
+    }
+ 
+
+
 
     #banner{
         padding: 0%;
+        width: 100%;
     }
 
     #banner img{
@@ -39,11 +84,8 @@ body html{
         
     }
     
-    #card-2{
-        width: 15rem; height: 20rem;
-        display: flex;
-        flex-direction: column;
-    }
+
+    
    
     
     
