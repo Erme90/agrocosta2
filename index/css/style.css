@@ -1,3 +1,7 @@
+header{
+    max-width: 100%;
+}
+
 body html{ 
     padding: 5%;
     
@@ -17,79 +21,85 @@ body html{
   }
 
 
-@media only screen and (max-device-width:900px){
-    .menu{
-        width: 100%;
-    }
- 
-    /*banner*/
-    .div-cards{
-        margin-top: 0;
-        padding: 2px;
-
-    }
-
-    
-    .texto-mapa{
-        margin-top: 20px;
-        background: white;
-        text-align: center;
-    }
- 
-
-    .mapa{
-
-        overflow:hidden;
-
-        padding-bottom:56.25%;
-
-        position:relative;
-
-        height:0;
-
-    }
-
-    .mapa iframe{
-
-        left:0;
-
-        top:0;
-
-        height:80%;
-
-        width:100%;
-
-        position:absolute;
-
-    }
- 
-
-
-
-    #banner{
-        padding: 0%;
-        width: 100%;
-    }
-
-    #banner img{
-        width: 100%;
-        height: 100%;        
-
-    }
-
-    #whatsapp-btn{
-        position:fixed;
-        bottom:62%;
-        right:10px;
-        
-    }
-    
-
-    
-   
-    
+@media screen and (min-width:1200px){
     
 }
+.menu{
+    width: 100%;
+}
+
+/*banner*/
+.div-cards{
+    margin-top: 0;
+    padding: 2px;
+
+}
+.card{
+    width: 12rem; 
+    height: 19rem;
+}
+
+.texto-mapa{
+    margin-top: 20px;
+    background: white;
+    text-align: center;
+}
+
+
+.mapa{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+    width: 100%;
+
+}
+
+.mapa iframe{
+
+    left:0;
+
+    top:0;
+
+    height:80%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+
+
+
+
+#banner{
+    padding: 0%;
+    width: 100%;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;        
+
+}
+
+#whatsapp-btn{
+    position:fixed;
+    bottom:62%;
+    right:10px;
+    
+}
+
+
+
+
+
 
 
 /*Clinica veterinária Agro Costa, o melhor para seu pet*/
