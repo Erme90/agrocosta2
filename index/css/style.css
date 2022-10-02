@@ -22,10 +22,26 @@ body html{
 
 
 @media screen and (min-width:1200px){
+    .card{
+        width: 12rem; 
+        height: 19rem;
+    }
+
+    .navbar-collapse{
+        justify-content: end;
+
+    }
+    }
     
-}
+
 .menu{
     width: 100%;
+}
+
+.navbar-brand{
+    width: 25%;
+    height: 25%;
+    
 }
 
 /*banner*/
@@ -34,10 +50,7 @@ body html{
     padding: 2px;
 
 }
-.card{
-    width: 12rem; 
-    height: 19rem;
-}
+
 
 .texto-mapa{
     margin-top: 20px;
@@ -73,9 +86,6 @@ body html{
     position:absolute;
 
 }
-
-
-
 
 
 #banner{
