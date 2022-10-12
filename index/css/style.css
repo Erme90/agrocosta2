@@ -9,10 +9,10 @@ body html{
 
 .parallax {
     /* imagem usada */
-    background-image: url("../img/10604152_43081.jpeg") 10% fixed;
+    background: url("../img/10604152_43081.jpeg") 10% fixed;
   
     /* configure uma altura especifica */
-    height: 1000px;
+    height: 100%;
   
     /* cria o efeito de scroll do parallax */
     background-attachment: fixed;
@@ -27,11 +27,16 @@ body html{
         height: 19rem;
     }
 
+    
+
     .navbar-collapse{
         justify-content: end;
 
     }
-    }
+
+    
+
+}
     
 
 .menu{
@@ -47,10 +52,12 @@ body html{
 /*banner*/
 .div-cards{
     margin-top: 0;
-    padding: 2px;
+    padding: 5px;    
 
 }
-
+.div-cards #card-1{
+    margin-top: 25px;
+}
 
 .texto-mapa{
     margin-top: 20px;
@@ -101,10 +108,13 @@ body html{
 
 #whatsapp-btn{
     position:fixed;
-    bottom:62%;
-    right:10px;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1;
     
 }
+
+
 
 
 
