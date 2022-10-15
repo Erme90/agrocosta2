@@ -9,7 +9,7 @@ body html{
 
 .parallax {
     /* imagem usada */
-    background: url("../img/10604152_43081.jpeg") 10% fixed;
+    background: url("../img/fundo.png") 10% fixed;
   
     /* configure uma altura especifica */
     height: 100%;
@@ -95,6 +95,8 @@ body html{
 }
 
 
+
+
 #banner{
     padding: 0%;
     width: 100%;
@@ -109,11 +111,15 @@ body html{
 #whatsapp-btn{
     position:fixed;
     right: 15px;
-    bottom: 15px;
+    bottom: 100px;
     z-index: 1;
     
 }
 
+#whatsapp-fixed{
+    position: absolute;
+    right: 5%;
+}
 
 
 
