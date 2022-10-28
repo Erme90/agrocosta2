@@ -52,17 +52,23 @@ body html{
 /*banner*/
 .div-cards{
     margin-top: 0;
-    padding: 5px;    
+    padding: 5px;  
 
 }
 .div-cards #card-1{
     margin-top: 25px;
 }
 
+.card{
+    background-color: rgb(255,255,255,0.2);
+
+}
+
 .texto-mapa{
     margin-top: 20px;
     background: white;
     text-align: center;
+    
 }
 
 
