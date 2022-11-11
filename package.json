@@ -1,0 +1,24 @@
+{
+  "name": "agro-costa---leonardo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erme90/Agro-Costa---website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erme90/Agro-Costa---website/issues"
+  },
+  "homepage": "https://github.com/Erme90/Agro-Costa---website#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "jquerry": "^0.0.1-security",
+    "sass": "^1.55.0"
+  }
+}

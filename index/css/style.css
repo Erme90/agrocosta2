@@ -43,24 +43,41 @@ body html{
     width: 100%;
 }
 
-.navbar-brand{
-    width: 25%;
-    height: 25%;
-    
-}
-
 /*banner*/
 .div-cards{
-    margin-top: 0;
+
+    margin: 0;
     padding: 5px;  
+    width: 100%;
+    
+   
 
 }
 .div-cards #card-1{
     margin-top: 25px;
+    width: fit-content;
+
+}
+
+.div-cards #card-2{
+    margin-top: 25px;
+    width: fit-content;
+}
+
+.div-cards #card-3{
+    margin-top: 25px;
+    width: fit-content;
+}
+
+.div-cards #card-4{
+    margin-top: 25px;
+    width: fit-content;
 }
 
 .card{
-    background-color: rgb(255,255,255,0.2);
+    background-color: rgb(255,255,255,0.1);
+    border-color: rgb(255,255,255,0.1);
+
 
 }
 
@@ -114,6 +131,7 @@ body html{
 
 }
 
+/*
 #whatsapp-btn{
     position:fixed;
     right: 15px;
@@ -125,7 +143,7 @@ body html{
 #whatsapp-fixed{
     position: absolute;
     right: 5%;
-}
+}*/
 
 
 
