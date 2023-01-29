@@ -1,7 +1,6 @@
 {
   "name": "agro-costa---leonardo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,8 +16,12 @@
   },
   "homepage": "https://github.com/Erme90/Agro-Costa---website#readme",
   "dependencies": {
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.2.3",
     "jquerry": "^0.0.1-security",
+    "jquery": "^3.6.3",
+    "popper.js": "^1.16.1",
     "sass": "^1.55.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
